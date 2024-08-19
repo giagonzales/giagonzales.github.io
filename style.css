@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+
+  }
+
+
+@font-face {
+  font-family: "OrticaAngular";
+  src:
+    local("OrticaAngular"),
+    local("OrticaLinear"),
+    url("OrticaAngular-Bold.woff") format("woff"),
+    url("OrticaAngular-Bold.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;    
+
+}
+ 
+@font-face {
+  font-family: "OrticaLinear";
+  src:
+    local("OrticaLinear"),
+    url("OrticaLinear-Light.woff") format("woff"),
+    url("OrticaLinear-Light.woff2") format("woff2");
+
+    font-weight: normal;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;    
+
+}
+
+.container {
+    padding: 2em 2em 2em 2em;
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container { 
+    max-width: 960px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+h1 {
+color: green;
+font-family: 'OrticaLinear','Times New Roman', Times, serif;
+font-size: 3em;
+font-weight: 300;
+font-style: normal;
+word-wrap: break-word;
+overflow-wrap: break-word;
+
+}
+
+h2 {
+  color: green;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 2em;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+}
+
+p {
+  color: green;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 1.25em;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.indexname {
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 4em;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+}
+
+.indexpara {
+  position: relative;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 4em;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: normal;
+  overflow-wrap: normal;
+  
+}
+
+.parahead {
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.backarrow {
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 3em;
+  font-weight: normal;
+  font-style: normal;
+  
+  }
+
+a:link {
+  color: green;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+
+a:hover {
+  font-family: 'OrticaAngular';
+  font-style: italic;
+}
+
+
+
