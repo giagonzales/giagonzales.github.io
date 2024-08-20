@@ -107,6 +107,19 @@ h2 {
   
 }
 
+h6 {
+  margin-top: 1vw;
+  margin-left: 1vw;
+  color: green;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  
+}
+
 p {
   color: green;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
@@ -135,18 +148,10 @@ p {
   overflow-wrap: break-word;
 }
 
-
-.backarrow {
-  font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 2rem;
-  font-weight: normal;
-  font-style: normal;
-  
-  }
-
 a:link {
   color: green;
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
 }
 
 a:visited {
@@ -158,6 +163,7 @@ a:hover {
   font-family: 'OrticaAngular';
   font-style: italic;
 }
+
 
 
 
