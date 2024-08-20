@@ -86,20 +86,20 @@ body {
 }
 
 h1 {
-color: green;
-font-family: 'OrticaLinear','Times New Roman', Times, serif;
-font-size: 3em;
-font-weight: 300;
-font-style: normal;
-word-wrap: break-word;
-overflow-wrap: break-word;
+  color: green;
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
 
 }
 
 h2 {
   color: green;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 2em;
+  font-size: 2rem;
   font-weight: normal;
   font-style: normal;
   word-wrap: break-word;
@@ -110,7 +110,7 @@ h2 {
 p {
   color: green;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   font-weight: normal;
   font-style: normal;
   word-wrap: break-word;
@@ -119,28 +119,35 @@ p {
 
 .indexname {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 4em;
+  font-size: 2.5rem;
   font-weight: normal;
   font-style: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  white-space: normal;
-}
-
-.indexpara {
-  position: relative;
-  font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 4em;
-  font-weight: normal;
-  font-style: normal;
-  word-wrap: normal;
-  overflow-wrap: normal;
-  
 }
 
 .parahead {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 1.5em;
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.biopara {
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.biopara2 {
+  font-family: 'OrticaLinear','Times New Roman', Times, serif;
+  text-align: right;
+  font-size: 1rem;
   font-weight: normal;
   font-style: normal;
   word-wrap: break-word;
@@ -149,7 +156,7 @@ p {
 
 .backarrow {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 3em;
+  font-size: 2rem;
   font-weight: normal;
   font-style: normal;
   
