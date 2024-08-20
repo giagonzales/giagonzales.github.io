@@ -38,7 +38,7 @@
 }
 
 .container {
-    padding: 2em 2em 2em 2em;
+    padding: 2em;
     position: relative;
     width: 100%;
     max-width: 320px;
@@ -135,24 +135,6 @@ p {
   overflow-wrap: break-word;
 }
 
-.biopara {
-  font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 1rem;
-  font-weight: normal;
-  font-style: normal;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
-
-.biopara2 {
-  font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  text-align: right;
-  font-size: 1rem;
-  font-weight: normal;
-  font-style: normal;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-}
 
 .backarrow {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
