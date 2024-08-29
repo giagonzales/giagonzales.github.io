@@ -45,118 +45,6 @@
     
 }
 
-
-@media only screen and (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  .parahead {
-    font-size: 1.75rem;
-  }
-
-  .indextext {
-    font-size: 5rem;
-  }
-}
-
-
-@media only screen and (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  .parahead {
-    font-size: 1.75rem;
-  }
-
-  .indextext {
-    font-size: 5rem;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .container { 
-    max-width: 960px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  .parahead {
-    font-size: 1.75rem;
-  }
-
-  .indextext {
-    font-size: 5rem;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  .parahead {
-    font-size: 1.75rem;
-  }
-
-  .indextext {
-    font-size: 5rem;
-  }
-}
-
-@media only screen and (min-width: 1400px) {
-  .container {
-    max-width: 1320px;
-  }
-
-  h1 {
-    font-size: 2.5rem;
-  }
-
-  p {
-    font-size: 1.15rem;
-  }
-
-  .parahead {
-    font-size: 1.75rem;
-  }
-
-  .indextext {
-    font-size: 5rem;
-  } 
-}
-
 body {
   background-color: whitesmoke;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
@@ -210,6 +98,15 @@ p {
   overflow-wrap: break-word;
 }
 
+.biotext {
+  font-family: 'OrticaLinear', 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: 1.25rem;
+  font-style: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
 .parahead {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
   font-weight: normal;
@@ -233,6 +130,137 @@ a:visited {
 a:hover {
   font-family: 'OrticaAngular';
   font-style: italic;
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 3rem;
+  }
+
+  .biotext {
+    font-size: 1.75rem;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  }
+
+  .biotext {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container { 
+    max-width: 960px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  }
+
+  .biotext {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  }
+
+  .biotext {
+    font-size: 1.75rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  } 
+
+  .biotext {
+    font-size: 1.75rem;
+  }
 }
 
 
