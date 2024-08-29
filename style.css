@@ -45,15 +45,49 @@
     
 }
 
+
 @media only screen and (min-width: 576px) {
   .container {
     max-width: 540px;
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  }
 }
+
 
 @media only screen and (min-width: 768px) {
   .container {
     max-width: 720px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
   }
 }
 
@@ -61,11 +95,43 @@
   .container { 
     max-width: 960px;
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
   }
 }
 
@@ -73,6 +139,22 @@
   .container {
     max-width: 1320px;
   }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.15rem;
+  }
+
+  .parahead {
+    font-size: 1.75rem;
+  }
+
+  .indextext {
+    font-size: 5rem;
+  } 
 }
 
 body {
@@ -88,23 +170,12 @@ body {
 h1 {
   color: green;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 2.5rem;
-  font-weight: 300;
-  font-style: normal;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-
-}
-
-h2 {
-  color: green;
-  font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 2rem;
   font-weight: normal;
+  font-size: 2rem;
   font-style: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  
+
 }
 
 h6 {
@@ -123,17 +194,17 @@ h6 {
 p {
   color: green;
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 1.25rem;
   font-weight: normal;
+  font-size: 1rem;
   font-style: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
 
-.indexname {
+.indextext {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
-  font-size: 1.5rem;
   font-weight: normal;
+  font-size: 3rem;
   font-style: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -142,6 +213,7 @@ p {
 .parahead {
   font-family: 'OrticaLinear','Times New Roman', Times, serif;
   font-weight: normal;
+  font-size: 1.45rem;
   font-style: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
